@@ -35,14 +35,22 @@
             
         } 
         
-        if ($credit_card == "Visa") {
-            echo "You selected Visa Card";
-        } elseif ($credit_card == "Mastercard"){
-            echo "You selected Master Card";
-        } elseif ($credit_card == "ExpressCard"){
-            echo "You selected Express Card";
-        } else {
-            echo "Please make a selection";
+        switch ($credit_card) {
+            case 'Visa':
+                echo "You selected Visa Card<br>";
+                break;
+            
+            case 'Mastercard':
+                echo "You selected Mastercard<br>";
+                break;
+
+            case 'ExpressCard':
+                echo "You selected ExpressCard<br>";
+                break;
+
+            default:
+                echo "Please make a selection <br>";
+                break;
         }
 
     }
