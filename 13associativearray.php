@@ -21,7 +21,7 @@
 
     // $capitals = array_reverse($capitals); // reverse the array
 
-    echo count($capitals) . "<br>";
+    echo count($capitals) . "<br>   ";
 
     foreach($capitals as $key => $value ){
         echo "{$key} = {$value} <br>";
