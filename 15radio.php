@@ -52,6 +52,5 @@
                 echo "Please make a selection <br>";
                 break;
         }
-
     }
 ?>

@@ -21,7 +21,7 @@
 </html>
 <?php
     // isset() = Returns True if a variable is declared and not null
-    // empty() = Returns True if a variable is not declared, false, null, ""  
+    // empty() = Returns True if a variable is not declared, false, null, "", [], 0, "0" 
 
     // foreach ($_POST as $key => $value) {
     //     echo "{$key} = {$value}";
